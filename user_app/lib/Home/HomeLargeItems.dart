@@ -29,9 +29,9 @@ class HomeLargeItems extends StatelessWidget {
                     image: const DecorationImage(
                         image: AssetImage('assets/images/discovervibe3.gif'),
                         fit: BoxFit.cover)),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.end,
-                  children: const [
+                  children: [
                     Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Text(
@@ -66,9 +66,9 @@ class HomeLargeItems extends StatelessWidget {
                       image: AssetImage('assets/images/discovervibe2.gif'),
                       fit: BoxFit.cover),
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.end,
-                  children: const [
+                  children: [
                     Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Text(

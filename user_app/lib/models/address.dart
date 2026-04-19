@@ -36,15 +36,15 @@ class Address {
 
   get lattitude => '';
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
-    data['name'] = this.name;
-    data['phoneNumber'] = this.phoneNumber;
-    data['flatNumber'] = this.flatNumber;
-    data['city'] = this.city;
-    data['state'] = this.state;
-    data['fullAddress'] = this.fullAddress;
-    data['lat'] = this.lat;
-    data['lng'] = this.lng;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['name'] = name;
+    data['phoneNumber'] = phoneNumber;
+    data['flatNumber'] = flatNumber;
+    data['city'] = city;
+    data['state'] = state;
+    data['fullAddress'] = fullAddress;
+    data['lat'] = lat;
+    data['lng'] = lng;
 
     return data;
   }

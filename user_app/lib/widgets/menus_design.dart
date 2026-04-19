@@ -26,7 +26,7 @@ class _MenusDesignWidgetState extends State<MenusDesignWidget> {
       splashColor: Colors.pinkAccent,
       child: Padding(
         padding: const EdgeInsets.all(5),
-        child: Container(
+        child: SizedBox(
           height: 300,
           width: MediaQuery.of(context).size.width,
           child: Column(children: [

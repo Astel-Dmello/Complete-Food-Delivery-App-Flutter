@@ -34,9 +34,9 @@ class NonVegItems extends StatelessWidget {
                     child: Expanded(
                       child: Column(
                         children: [
-                          Row(
+                          const Row(
                             mainAxisAlignment: MainAxisAlignment.end,
-                            children: const [
+                            children: [
                               Padding(
                                 padding: EdgeInsets.all(8.0),
                                 child: Icon(
@@ -46,9 +46,9 @@ class NonVegItems extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Row(
-                              children: const [
+                              children: [
                                 Padding(
                                   padding: EdgeInsets.only(left: 8.0, top: 50),
                                   child: Expanded(
@@ -83,11 +83,11 @@ class NonVegItems extends StatelessWidget {
                                         const Color.fromARGB(255, 32, 123, 35),
                                     borderRadius: BorderRadius.circular(10),
                                   ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
+                                  child: const Padding(
+                                    padding: EdgeInsets.all(8.0),
                                     child: Expanded(
                                       child: Row(
-                                        children: const [
+                                        children: [
                                           Text(
                                             '3.9',
                                             style: TextStyle(
@@ -141,9 +141,9 @@ class NonVegItems extends StatelessWidget {
                     child: Expanded(
                       child: Column(
                         children: [
-                          Row(
+                          const Row(
                             mainAxisAlignment: MainAxisAlignment.end,
-                            children: const [
+                            children: [
                               Padding(
                                 padding: EdgeInsets.all(8.0),
                                 child: Icon(
@@ -153,9 +153,9 @@ class NonVegItems extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Row(
-                              children: const [
+                              children: [
                                 Padding(
                                   padding: EdgeInsets.only(left: 8.0, top: 50),
                                   child: Expanded(
@@ -190,11 +190,11 @@ class NonVegItems extends StatelessWidget {
                                         const Color.fromARGB(255, 32, 123, 35),
                                     borderRadius: BorderRadius.circular(10),
                                   ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
+                                  child: const Padding(
+                                    padding: EdgeInsets.all(8.0),
                                     child: Expanded(
                                       child: Row(
-                                        children: const [
+                                        children: [
                                           Text(
                                             '4.1',
                                             style: TextStyle(
@@ -248,9 +248,9 @@ class NonVegItems extends StatelessWidget {
                     child: Expanded(
                       child: Column(
                         children: [
-                          Row(
+                          const Row(
                             mainAxisAlignment: MainAxisAlignment.end,
-                            children: const [
+                            children: [
                               Padding(
                                 padding: EdgeInsets.all(8.0),
                                 child: Icon(
@@ -260,9 +260,9 @@ class NonVegItems extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Row(
-                              children: const [
+                              children: [
                                 Padding(
                                   padding: EdgeInsets.only(left: 8.0, top: 50),
                                   child: Expanded(
@@ -297,11 +297,11 @@ class NonVegItems extends StatelessWidget {
                                         const Color.fromARGB(255, 32, 123, 35),
                                     borderRadius: BorderRadius.circular(10),
                                   ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
+                                  child: const Padding(
+                                    padding: EdgeInsets.all(8.0),
                                     child: Expanded(
                                       child: Row(
-                                        children: const [
+                                        children: [
                                           Text(
                                             '4.4',
                                             style: TextStyle(
@@ -355,9 +355,9 @@ class NonVegItems extends StatelessWidget {
                     child: Expanded(
                       child: Column(
                         children: [
-                          Row(
+                          const Row(
                             mainAxisAlignment: MainAxisAlignment.end,
-                            children: const [
+                            children: [
                               Padding(
                                 padding: EdgeInsets.all(8.0),
                                 child: Icon(
@@ -367,9 +367,9 @@ class NonVegItems extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Row(
-                              children: const [
+                              children: [
                                 Padding(
                                   padding: EdgeInsets.only(left: 8.0, top: 50),
                                   child: Expanded(
@@ -404,11 +404,11 @@ class NonVegItems extends StatelessWidget {
                                         const Color.fromARGB(255, 32, 123, 35),
                                     borderRadius: BorderRadius.circular(10),
                                   ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
+                                  child: const Padding(
+                                    padding: EdgeInsets.all(8.0),
                                     child: Expanded(
                                       child: Row(
-                                        children: const [
+                                        children: [
                                           Text(
                                             '4.0',
                                             style: TextStyle(

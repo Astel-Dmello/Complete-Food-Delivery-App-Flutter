@@ -14,7 +14,7 @@ import '../widgets/text_widget_header.dart';
 
 class ItemsScreen extends StatefulWidget {
   final Menus? model;
-  const ItemsScreen({this.model});
+  const ItemsScreen({super.key, this.model});
 
   @override
   State<ItemsScreen> createState() => _ItemsScreenState();

@@ -24,8 +24,8 @@ class _CartItemDesignState extends State<CartItemDesign> {
     return InkWell(
       onTap: () {},
       child: Padding(
-        padding: EdgeInsets.all(6),
-        child: Container(
+        padding: const EdgeInsets.all(6),
+        child: SizedBox(
           height: 165,
           width: MediaQuery.of(context).size.width,
           child: Row(

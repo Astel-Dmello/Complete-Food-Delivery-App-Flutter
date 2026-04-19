@@ -26,9 +26,9 @@ class Home extends StatefulWidget {
 class _DiningPagePageState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
-        children: const [
+        children: [
           SizedBox(
             height: 20,
           ),

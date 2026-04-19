@@ -141,10 +141,10 @@ class _DiningHomeListState extends State<DiningHomeList> {
                                 bottomRight: Radius.circular(10),
                               ),
                             ),
-                            child: Row(
+                            child: const Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               mainAxisSize: MainAxisSize.max,
-                              children: const [
+                              children: [
                                 TextButton(
                                   onPressed: null,
                                   child: Text(

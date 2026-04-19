@@ -19,7 +19,7 @@ class _EarningScreenState extends State<EarningScreen> {
         body: SafeArea(child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("₹"+previousRidersEarnings,style: const TextStyle(
+            Text("₹$previousRidersEarnings",style: const TextStyle(
               fontSize: 50,color: Colors.white,fontFamily: "Signatra"
             ),),
              const Text("Total Earnings",style: TextStyle(
@@ -40,7 +40,7 @@ class _EarningScreenState extends State<EarningScreen> {
             ),
             GestureDetector(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c)=>MySplashScreen()));
+                Navigator.push(context, MaterialPageRoute(builder: (c)=>const MySplashScreen()));
               },
               child: const Card(
                 color: Colors.white,

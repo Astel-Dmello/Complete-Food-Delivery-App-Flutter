@@ -23,6 +23,8 @@ class SaveAddressScreen extends StatelessWidget {
   Position? position;
 
   String completeAddress = '';
+
+  SaveAddressScreen({super.key});
   getUserLocationAddress() async {
     LocationPermission permission = await Geolocator.requestPermission();
     Position newPosition = await Geolocator.getCurrentPosition(
@@ -115,7 +117,7 @@ class SaveAddressScreen extends StatelessWidget {
                 color: Colors.black,
                 size: 35,
               ),
-              title: Container(
+              title: SizedBox(
                 width: 250,
                 child: const TextField(
                   style: TextStyle(
@@ -141,7 +143,7 @@ class SaveAddressScreen extends StatelessWidget {
                 color: Colors.white,
               ),
               style: ButtonStyle(
-                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30),
                           side: const BorderSide(color: Colors.cyan)))),

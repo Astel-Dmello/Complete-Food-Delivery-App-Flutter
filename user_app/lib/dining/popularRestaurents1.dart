@@ -93,10 +93,10 @@ class PopularRestaurent1State extends State<PopularRestaurent1> {
                           borderRadius: const BorderRadius.only(
                               topLeft: Radius.circular(20),
                               topRight: Radius.circular(20))),
-                      child: Column(
+                      child: const Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const [
+                        children: [
                           Padding(
                             padding: EdgeInsets.all(8.0),
                             child: Icon(

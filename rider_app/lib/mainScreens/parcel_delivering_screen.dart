@@ -15,7 +15,7 @@ class ParcelDeliveringScreen extends StatefulWidget {
   String? sellerId;
   String? getOrderId;
 
-  ParcelDeliveringScreen({
+  ParcelDeliveringScreen({super.key, 
     this.purchaserId,
     this.purchaserAddress,
     this.purchaserLat,
@@ -137,8 +137,8 @@ class _ParcelDeliveringScreenState extends State<ParcelDeliveringScreen> {
                 const SizedBox(
                   width: 7,
                 ),
-                Column(
-                  children: const [
+                const Column(
+                  children: [
                     SizedBox(
                       height: 13,
                     ),

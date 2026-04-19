@@ -141,7 +141,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
     if (currentUser != null) {
       saveDataToFireStore(currentUser!).then((value) {
         Navigator.pop(context);
-        Route newRoute = MaterialPageRoute(builder: (context) => HomeScreen());
+        Route newRoute = MaterialPageRoute(builder: (context) => const HomeScreen());
         Navigator.pushReplacement(context, newRoute);
       });
     }
@@ -262,7 +262,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         style: TextStyle(color: Colors.white),
                       ),
                       style: ElevatedButton.styleFrom(
-                          primary: Color.fromARGB(255, 250, 171, 119),
+                          backgroundColor: const Color.fromARGB(255, 250, 171, 119),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),
                           )),
@@ -279,7 +279,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 formValidation(),
               },
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 249, 117, 161),
+                  backgroundColor: const Color.fromARGB(255, 249, 117, 161),
                   padding:
                       const EdgeInsets.symmetric(horizontal: 50, vertical: 20)),
               child: const Text(

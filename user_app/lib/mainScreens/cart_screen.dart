@@ -59,7 +59,7 @@ class _CartScreenState extends State<CartScreen> {
         ),
         centerTitle: true,
         automaticallyImplyLeading: true,
-        actions: [],
+        actions: const [],
       ),
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,

@@ -6,7 +6,7 @@ class ItemsDesignWidget extends StatefulWidget {
   Items? model;
   BuildContext? context;
 
-  ItemsDesignWidget({this.model, this.context});
+  ItemsDesignWidget({super.key, this.model, this.context});
 
   @override
   State<ItemsDesignWidget> createState() => _ItemsDesignWidgetState();

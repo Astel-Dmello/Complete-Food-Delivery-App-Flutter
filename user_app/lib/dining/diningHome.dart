@@ -36,8 +36,8 @@ class DiningHome extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
-                    Row(
-                      children: const [
+                    const Row(
+                      children: [
                         Icon(
                           Icons.location_on_outlined,
                           color: Colors.white,
@@ -79,9 +79,9 @@ class DiningHome extends StatelessWidget {
                                     image: AssetImage(
                                         'assets/images/blackcard.jpeg'),
                                     fit: BoxFit.cover)),
-                            child: Column(
+                            child: const Column(
                               mainAxisAlignment: MainAxisAlignment.end,
-                              children: const [
+                              children: [
                                 Text(
                                   'Pay with App Card',
                                   textAlign: TextAlign.start,
@@ -108,9 +108,9 @@ class DiningHome extends StatelessWidget {
                                     image: AssetImage(
                                         'assets/images/blackcard.jpeg'),
                                     fit: BoxFit.cover)),
-                            child: Column(
+                            child: const Column(
                               mainAxisAlignment: MainAxisAlignment.end,
-                              children: const [
+                              children: [
                                 Text(
                                   'Pay with personal Card',
                                   textAlign: TextAlign.start,
@@ -153,10 +153,10 @@ class DiningHome extends StatelessWidget {
                   child: DiningHomeList(),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(10.0),
+              const Padding(
+                padding: EdgeInsets.all(10.0),
                 child: Column(
-                  children: const [
+                  children: [
                     Text(
                       'MOST LOVED RESTAURENTS',
                       style: TextStyle(

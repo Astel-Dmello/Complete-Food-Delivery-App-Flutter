@@ -139,7 +139,7 @@ class _AllBlockedUsersScreenState extends State<AllBlockedUsersScreen> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ElevatedButton.icon(
-                      style: ElevatedButton.styleFrom(primary: Colors.green),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
                       icon: const Icon(
                         Icons.person_pin_sharp,
                         color: Colors.white,
@@ -177,7 +177,7 @@ class _AllBlockedUsersScreenState extends State<AllBlockedUsersScreen> {
     return Scaffold(
       appBar: SimpleAppBar(title: "All Blocked Users Account "),
       body: Center(
-        child: Container(
+        child: SizedBox(
           width: MediaQuery.of(context).size.width * 5,
           child: displayBlockedUsersDesign(),
         ),

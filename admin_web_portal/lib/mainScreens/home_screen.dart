@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final DateTime timeNow = DateTime.now();
     final String liveTime = formatCurrentLiveTime(timeNow);
     final String liveDate = formatCurrentDate(timeNow);
-    if (this.mounted) {
+    if (mounted) {
       setState(() {
         timeText = liveTime;
         dateText = liveDate;
@@ -111,13 +111,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                     ),
                     label: Text(
-                      "All Verified Users " + "\n" + "Account".toUpperCase(),
+                      "All Verified Users " "\n" + "Account".toUpperCase(),
                       style: const TextStyle(
                           fontSize: 16, color: Colors.white, letterSpacing: 3),
                     ),
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.all(40),
-                      primary: Colors.amber,
+                      backgroundColor: Colors.amber,
                     ),
                   ),
                   const SizedBox(
@@ -136,13 +136,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                     ),
                     label: Text(
-                      "All Blocked Users " + " \n" + "Account".toUpperCase(),
+                      "All Blocked Users " " \n" + "Account".toUpperCase(),
                       style: const TextStyle(
                           fontSize: 16, color: Colors.white, letterSpacing: 3),
                     ),
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.all(40),
-                      primary: Colors.pinkAccent,
+                      backgroundColor: Colors.pinkAccent,
                     ),
                   )
                 ],
@@ -163,13 +163,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                     ),
                     label: Text(
-                      "All Verified Seller's " + "\n" + "Account".toUpperCase(),
+                      "All Verified Seller's " "\n" + "Account".toUpperCase(),
                       style: const TextStyle(
                           fontSize: 16, color: Colors.white, letterSpacing: 3),
                     ),
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.all(40),
-                      primary: Colors.pinkAccent,
+                      backgroundColor: Colors.pinkAccent,
                     ),
                   ),
                   const SizedBox(
@@ -188,13 +188,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                     ),
                     label: Text(
-                      "All Blocked Seller's " + " \n" + "Account".toUpperCase(),
+                      "All Blocked Seller's " " \n" + "Account".toUpperCase(),
                       style: const TextStyle(
                           fontSize: 16, color: Colors.white, letterSpacing: 3),
                     ),
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.all(40),
-                      primary: Colors.amber,
+                      backgroundColor: Colors.amber,
                     ),
                   ),
                 ],
@@ -215,13 +215,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                     ),
                     label: Text(
-                      "All Verified Riders " + "\n" + "Account".toUpperCase(),
+                      "All Verified Riders " "\n" + "Account".toUpperCase(),
                       style: const TextStyle(
                           fontSize: 16, color: Colors.white, letterSpacing: 3),
                     ),
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.all(40),
-                      primary: Colors.amber,
+                      backgroundColor: Colors.amber,
                     ),
                   ),
                   const SizedBox(
@@ -240,13 +240,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                     ),
                     label: Text(
-                      "All Blocked Riders " + " \n" + "Account".toUpperCase(),
+                      "All Blocked Riders " " \n" + "Account".toUpperCase(),
                       style: const TextStyle(
                           fontSize: 16, color: Colors.white, letterSpacing: 3),
                     ),
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.all(40),
-                      primary: Colors.pinkAccent,
+                      backgroundColor: Colors.pinkAccent,
                     ),
                   )
                 ],
@@ -255,7 +255,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {
                   FirebaseAuth.instance.signOut();
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LoginScreen()));
+                      MaterialPageRoute(builder: (context) => const LoginScreen()));
                 },
                 icon: const Icon(
                   Icons.logout,
@@ -268,7 +268,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.all(40),
-                  primary: Colors.pinkAccent,
+                  backgroundColor: Colors.pinkAccent,
                 ),
               )
             ],

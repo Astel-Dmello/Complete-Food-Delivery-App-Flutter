@@ -85,10 +85,10 @@ class _HomeScreenState extends State<HomeScreen> {
           SliverToBoxAdapter(
             child: Column(
               children: [
-                Home(),
+                const Home(),
                 Padding(
                   padding: const EdgeInsets.all(10.0),
-                  child: Container(
+                  child: SizedBox(
                     height: MediaQuery.of(context).size.height * .3,
                     width: MediaQuery.of(context).size.width,
                     child: CarouselSlider(

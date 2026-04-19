@@ -60,9 +60,9 @@ class _CakeItems1State extends State<CakeItems1> {
                 padding: const EdgeInsets.all(8.0),
                 child: Column(
                   children: [
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.end,
-                      children: const [
+                      children: [
                         Icon(
                           Icons.favorite_border_outlined,
                           color: Colors.white,

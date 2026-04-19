@@ -14,7 +14,7 @@ class ParcelPickingScreen extends StatefulWidget {
   String? purchaserLat;
   String? purchaserLng;
 
-  ParcelPickingScreen({
+  ParcelPickingScreen({super.key, 
     this.purchaserId,
     this.sellerId,
     this.getOrderId,
@@ -96,8 +96,8 @@ class _ParcelPickingScreenState extends State<ParcelPickingScreen> {
                 const SizedBox(
                   width: 7,
                 ),
-                Column(
-                  children: const [
+                const Column(
+                  children: [
                     SizedBox(
                       height: 13,
                     ),

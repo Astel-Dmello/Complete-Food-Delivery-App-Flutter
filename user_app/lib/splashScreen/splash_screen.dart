@@ -56,10 +56,10 @@ class _MySplashScreenState extends State<MySplashScreen> {
             const SizedBox(
               height: 10,
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
               child: Column(
-                children: const [
+                children: [
                   Text(
                     'Oreder Food Online With iFood',
                     textAlign: TextAlign.center,
